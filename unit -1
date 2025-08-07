@@ -1,2 +1,26 @@
 Next.js is a React framework for building full-stack web applications. 
 You use React Components to build user interfaces,
+Next.js can help you build interactive, dynamic, and fast React applications.
+
+🛣️ Two Types of Routing in Next.js
+1. Page Routing (Using pages/ folder)
+✅ Simple and easy – used in older versions
+🔧 How it works:
+Create a file → it becomes a page.
+Good for small projects
+Uses functions like getStaticProps and getServerSideProps for data
+No server components or layouts  
+
+2. App Routing (Using app/ folder)
+✅ Modern and powerful – introduced in Next.js 13
+
+🔧 How it works:
+Create folders and use special files like:
+
+page.js → for the page
+
+layout.js → shared layout (header/footer)
+
+loading.js → loading UI
+
+error.js → error handling
